@@ -1,4 +1,8 @@
-def init (width: int, height: int):
+def init (width: int, height: int) -> list:
+    """
+    Creates a 2D list of zeros with the given width and height.
+    """
+
     board = []
     for x in range(height):
         row = []
